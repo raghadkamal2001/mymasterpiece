@@ -1,0 +1,130 @@
+<section class="hero">
+    <div class="slider">
+      <!-- العنصر الأول -->
+      <div class="slide">
+        <img src="../masterpiecepictures/رواية1.jpg" alt="Call Me By My First Name">
+        <div class="text">
+          <h2>Call me Sousan</h2>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <!-- العنصر الثاني -->
+      <div class="slide">
+        <img src="../masterpiecepictures/غسان كنفاني.jpg" alt="Flowers Gone Dead">
+        <div class="text">
+          <h2>Flowers Gone</h2>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <!-- العنصر الثالث -->
+      <div class="slide">
+        <img src="../masterpiecepictures/في قلبي.jpg" alt="Route 66">
+        <div class="text">
+          <h2>Plain Iron</h2>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!--Js أزرار التبديل -->
+    <div class="controls">
+      <button class="prev">❮</button>
+      <button class="next">❯</button>
+    </div>
+  </section>
+
+
+
+  /* ages*/
+
+.ages-section {
+  text-align: center;
+  transform: translateY(50px);
+  animation: slideUp 2.5s ease-out forwards;
+  background-color: #EAE9E4;
+  margin: 0; /* إزالة أي هوامش سفلية من الأقسام الأخرى */
+  padding-top: 50px;
+ 
+}
+.ages-section h2{margin-bottom: 50px;}
+.age {
+  display: flex; /* يجعل الحاوية Flexbox */
+  flex-wrap: wrap; /* يسمح بالانتقال إلى سطر جديد */
+  gap: 20px; /* مسافة بين الصور */
+  justify-content: center; /* يركز العناصر أفقياً */
+}
+
+.img-box {
+  height: 350px;
+  width: 350px;
+  border-radius:5px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.5s transform linear;
+}
+
+.img-box img {
+  width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius:5px;
+}
+
+
+.age .img-box:hover {
+  transform: scale(1.1);
+  z-index: 10;
+  box-shadow: 0px 0px 10px #000000;
+}
+
+
+
+.category-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* خلفية نصف شفافة */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  opacity: 0; /* إخفاء النص افتراضيًا */
+  transition: opacity 0.3s ease; /* تأثير الظهور */
+}
+
+.img-box:hover .category-name {
+  opacity: 1; /* إظهار النص عند الإشارة */
+}
+
+
+<!--=====================ages========================-->
+<section class="ages-section">
+    <h2>تصنيفات العصور الأدبية</h2>
+    <div class="line"></div>
+    <div class="age">
+      <div class="img-box"><img src="../masterpiecepictures/العصر الحجري.jpg" alt="">
+        <div class="category-name">العصر الحجري</div>
+      </div>
+      <div class="img-box"><img src="../masterpiecepictures/العصر الاموي.jpg" alt="">
+        <div class="category-name">العصر الأموي</div>
+      </div>
+      <div class="img-box"><img src="../masterpiecepictures/العصر العباسي.jpg" alt="">
+        <div class="category-name">العصر العباسي</div>
+      </div>
+      <div class="img-box"><img src="../masterpiecepictures/العصر العثماني.jpg" alt="">
+        <div class="category-name">العصر العثماني</div>
+      </div>
+      <div class="img-box"><img src="../masterpiecepictures/الأندلس.jpg " alt="">
+      
+        <div class="category-name">العصر الأندلسي</div>
+      </div>
+      <div class="img-box"><img src="../masterpiecepictures/العصر الحديث.jpg" alt="">
+        <div class="category-name">العصر الحديث</div>
+      
+      </div>
+
+    </div>
+    <div class="line"></div>
+  </section>

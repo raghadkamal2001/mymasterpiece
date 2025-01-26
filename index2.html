@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>home page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--Box Icons-->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- My CSS file-->
+ <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+ <!-- Navbar -->
+ <header data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <div class="container-fluid">
+        <img src="../masterpiecepictures/masterlogo.png" id="logo" class="img-fluid rounded" alt="وصف الصورة">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="تبديل التنقل">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto m0b-2 mb-md-">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">الرئيسية </a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="#" >القصيدة</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">الرواية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">أعلام الأدب</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">الاقتباسات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">نبذة عنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">تواصل معنا</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">انضم إلينا</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> تسجيل الدخول</a>
+              </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="بحث" aria-label="بحث">
+            <button class="btn btn-outline-success" id="btn-search" type="submit">بحث</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+<main>
+
+<div class="herosection">
+
+    <section class="hero">
+        <p>بيت العربية حيث تنبض <br>الكلمات بروح العربية وتُولد الحكايات <br>من عبق الماضي والحاضر</p>
+        <button id="hero-btn">اقرأ المزيد</button>
+      </section>
+      
+      <section class="books">
+        <div class="book" id="novel1">
+          <img src="../masterpiecepictures/رواية1.jpg" alt="The Stranger">
+          <h3></h3>
+          <p></p>
+        </div>
+        <div class="book">
+          <img src="../masterpiecepictures/غسان كنفاني.jpg" alt="Der Process">
+          <h3></h3>
+          <p></p>
+        </div>
+        <div class="book" id="novel2">
+          <img src="../masterpiecepictures/في قلبي.jpg" alt="The Divine Comedy">
+          <h3></h3>
+          <p></p>
+        </div>
+      </section>
+    </div>
+
+
+<section class="categories">
+
+    <h2>تصنيفات العصور الأدبية</h2>
+    <div class="line"></div>
+    <div class="age">
+      <div class="img-box"><img src="../masterpiecepictures/العصر الحجري.jpg" alt="">
+        <div class="category-name">العصر الحجري</div>
+      </div>
+      <div class="img-box"><img src="../masterpiecepictures/العصر الاموي.jpg" alt="">
+        <div class="category-name">العصر الأموي</div>
+      </div>
+      <div class="img-box"><img src="../masterpiecepictures/العصر العباسي.jpg" alt="">
+        <div class="category-name">العصر العباسي</div>
+      </div>
+      <div class="img-box"><img src="../masterpiecepictures/العصر العثماني.jpg" alt="">
+        <div class="category-name">العصر العثماني</div>
+      </div>
+      <div class="img-box"><img src="../masterpiecepictures/الأندلس.jpg " alt="">
+      
+        <div class="category-name">العصر الأندلسي</div>
+      </div>
+      <div class="img-box"><img src="../masterpiecepictures/العصر الحديث.jpg" alt="">
+        <div class="category-name">العصر الحديث</div>
+      
+      </div>
+
+    </div>
+    <div class="line"></div>
+
+
+
+
+  </section>
+
+
+
+  <section class="quote-section">
+    <div class="quote-container">
+      <blockquote class="quote-text">
+        "القراءة هي مفتاح الروح، حيث تفتح الأبواب المغلقة وتكشف عن العوالم الداخلية فينا. كما أن الكتاب هو مرآة العقل، يعكس أعماقنا ويعطي الحياة للقلب."
+      </blockquote>
+      <cite class="quote-author">- جلال الدين الرومي </cite>
+    </div>
+  </section>
+
+
+
+
+  <section class="popular-books">
+    <h2 class="section-title">الكتب الأكثر تصفحًا</h2>
+    <div class="books-container">
+      <!-- كتاب 1 -->
+      <div class="book-card">
+        <img src="../masterpiecepictures/الشافعي.jpg" alt="غلاف الكتاب الأول" class="book-cover">
+        <h3 class="book-title">ديوان الإمام الشافعي </h3>
+        <p class="book-author">اسم المؤلف</p>
+        <p class="book-views">1234 مشاهدة</p>
+      </div>
+      <!-- كتاب 2 -->
+      <div class="book-card">
+        <img src="../masterpiecepictures/عائد إلى حيفا.jpg" alt="غلاف الكتاب الثاني" class="book-cover">
+        <h3 class="book-title">عنوان الكتاب الثاني</h3>
+        <p class="book-author">اسم المؤلف</p>
+        <p class="book-views">987 مشاهدة</p>
+      </div>
+    
+ <!-- كتاب 3 -->
+ <div class="book-card">
+    <img src="../masterpiecepictures/المتنبي.jpg" alt="غلاف الكتاب الثاني" class="book-cover">
+    <h3 class="book-title">عنوان الكتاب الثاني</h3>
+    <p class="book-author">اسم المؤلف</p>
+    <p class="book-views">987 مشاهدة</p>
+  </div>
+  
+ <!-- كتاب 2 -->
+ <div class="book-card">
+    <img src="../masterpiecepictures/عائد إلى حيفا.jpg" alt="غلاف الكتاب الثاني" class="book-cover">
+    <h3 class="book-title">عنوان الكتاب الثاني</h3>
+    <p class="book-author">اسم المؤلف</p>
+    <p class="book-views">987 مشاهدة</p>
+  </div>
+  
+
+
+
+    </div>
+  </section>
+</main>
+
+
+</body>
+</html>
